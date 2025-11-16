@@ -253,17 +253,37 @@
     <div class="black-hole" style="top: 70%; left: 85%;"></div>
     
     <nav class="navbar navbar-expand-lg cosmic-header">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-rocket"></i> Cosmic Testnet Portal
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-rocket"></i> Cosmic Portal
             </a>
-            <div class="navbar-nav ms-auto">
-                <button class="btn btn-outline-light me-2" id="loginBtn">
-                    <i class="fas fa-sign-in-alt"></i> Login
-                </button>
-                <button class="btn btn-primary" id="registerBtn">
-                    <i class="fas fa-user-plus"></i> Register
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/explorer.html">Explorer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/faucet.html">Faucet</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary me-2" id="loginBtn">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+                    <button class="btn btn-primary" id="registerBtn">
+                        <i class="fas fa-user-plus"></i> Register
+                    </button>
+                    <!-- Download Node Package Button -->
+                    <a href="/cosmic-node-package.zip" class="btn btn-success ms-2" download>
+                        <i class="fas fa-download"></i> Download Node
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
