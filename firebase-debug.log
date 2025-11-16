@@ -1,0 +1,31 @@
+[debug] [2025-11-16T09:59:45.604Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T09:59:45.606Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-11-16T09:59:45.606Z] CLI Version:   14.19.1
+[debug] [2025-11-16T09:59:45.607Z] Platform:      win32
+[debug] [2025-11-16T09:59:45.607Z] Node Version:  v22.16.0
+[debug] [2025-11-16T09:59:45.607Z] Time:          Sun Nov 16 2025 15:29:45 GMT+0530 (India Standard Time)
+[debug] [2025-11-16T09:59:45.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-16T09:59:45.609Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2025-11-16T09:59:47.051Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-11-16T09:59:47.052Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-11-16T10:00:58.205Z] ----------------------------------------------------------------------
+[debug] [2025-11-16T10:00:58.207Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-11-16T10:00:58.208Z] CLI Version:   14.19.1
+[debug] [2025-11-16T10:00:58.208Z] Platform:      win32
+[debug] [2025-11-16T10:00:58.208Z] Node Version:  v22.16.0
+[debug] [2025-11-16T10:00:58.208Z] Time:          Sun Nov 16 2025 15:30:58 GMT+0530 (India Standard Time)
+[debug] [2025-11-16T10:00:58.208Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Cosmic Chain\cosmic-chain-code\cosmic-portal
+
